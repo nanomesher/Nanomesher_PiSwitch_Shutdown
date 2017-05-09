@@ -11,6 +11,9 @@ This script is intended to be used by Raspberry Pi but can be easily modified to
 ## Prerequisties
 
 * Python 2.x or Python 3.x
-* Python GPIO library - sudo apt-get install python-dev python-rpi.gpio
+* Python GPIO library
 
+```
+sudo apt-get install python-dev python-rpi.gpio
+```
 
