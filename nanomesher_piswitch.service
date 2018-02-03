@@ -1,0 +1,10 @@
+[Unit]
+Description=NanoSound Pi Switch Shutdown Service
+
+[Service]
+ExecStart=/home/pi/Nanomesher_PiSwitch_Shutdown/ShutdownDetect.py
+StandardOutput=null
+
+[Install]
+WantedBy=multi-user.target
+Alias=nanomesher_piswitch.service
